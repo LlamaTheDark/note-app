@@ -5,6 +5,13 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+    <div id="footer">
+        <a href='#github'>
+            <div>
+                GitHub Link
+            </div>
+        </a>
+    </div>
   </div>
 </template>
 
@@ -15,6 +22,12 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+#footer {
+    width: 100%;
+    background-color:lightgreen;
+    padding: 10px;
 }
 
 #nav {
