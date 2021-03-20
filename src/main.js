@@ -7,7 +7,7 @@ Vue.config.productionTip = false
 
 let data = {
     notes: mockNotes,
-    tags: []
+    tags: [],
 }
 
 new Vue({
